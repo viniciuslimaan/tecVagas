@@ -1,0 +1,178 @@
+/* Fonte */
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+*{
+    font-family: 'Questrial', sans-serif;
+}
+/* Seleção do mouse */
+::selection {
+    background: #033649;
+    color: white;
+}
+/* Todo link tem pointer */
+a{
+    cursor: pointer;
+}
+/* Estilos de Textos */
+h2{
+    font-size: 50px;
+    color: #565C9E;
+    font-weight: bold;
+}
+/* Efeito Fadein */
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.fadeIn {
+    -webkit-animation: fadeIn 1.5s ease-in-out;
+    -moz-animation: fadeIn 1.5s ease-in-out;
+    -o-animation: fadeIn 1.5s ease-in-out;
+    animation: fadeIn 1.5s ease-in-out;
+}
+/* Botões */
+.botao{
+    font-size: 1em !important;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    color: #ecf0f1 !important;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+.botao:link{
+    text-decoration:none;
+}
+/* Botão Grande */
+.botao-grande{
+    padding-left: 45px !important;
+    padding-right: 45px !important;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+}
+/* Botão Pequeno */
+.botao-pequeno{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+/* Botão Roxo */
+.botao-roxo{
+    background: #565C9E;
+}
+.botao-roxo:hover{
+    filter: brightness(85%);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+/* Botão Vermelho */
+.botao-vermelho{
+    background: rgb(206, 48, 39);
+}
+.botao-vermelho:hover{
+    filter: brightness(85%);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+/* Botão Verde */
+.botao-verde{
+    background: #1fd66c;
+}
+.botao-verde:hover{
+    filter: brightness(85%);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+/* Botão Amarelo */
+.botao-amarelo{
+    background: #f1c40f;
+}
+.botao-amarelo:hover{
+    filter: brightness(85%);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+/* Botão Azul */
+.botao-azul{
+    background: #3498db;
+}
+.botao-azul:hover{
+    filter: brightness(85%);
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+}
+/* Edit na navbar */
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #7F88EB !important;
+}
+/* Titulos nas vagas */
+.tituloVaga{
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.espacocard{
+    margin-bottom: -15px;
+}
+/* Botão pesquisar vaga */
+.btn-outline-info {
+  color: #565C9E;
+  background-color: transparent;
+  background-image: none;
+  border-color: #565C9E;
+}
+.btn-outline-info:hover {
+  color: #fff;
+  background-color: #565C9E;
+  border-color: #565C9E;
+}
+.btn-outline-info:focus, .btn-outline-info.focus {
+  box-shadow: 0 0 0 0.2rem rgba(86, 92, 158, 0.5);
+}
+.btn-outline-info.disabled, .btn-outline-info:disabled {
+  color: #565C9E;
+  background-color: transparent;
+}
+.btn-outline-info:not(:disabled):not(.disabled):active, .btn-outline-info:not(:disabled):not(.disabled).active,
+.show > .btn-outline-info.dropdown-toggle {
+  color: #fff;
+  background-color: #565C9E;
+  border-color: #565C9E;
+}
+.btn-outline-info:not(:disabled):not(.disabled):active:focus, .btn-outline-info:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-info.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(86, 92, 158, 0.5);
+}
+.bordafotocandidato {
+  border: 5px solid #565C9E;
+}
+/* Carrossel */
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 3px;
+    background-color: #7F88EB;
+    top: 30px;
+}
+.carousel-indicators .active {
+    background-color: #565C9E;
+}
+/* Nome do input */
+.custom-file-input ~ .custom-file-label::after {
+    content: 'Escolher aquivo';
+}

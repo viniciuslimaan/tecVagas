@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# $RewriteRule ^(.*?)/?$ $index.php [NC, L]
+# RewriteRule ^tecvagas/?$ /tecvagas/index.php [L]
+# RewriteRule ^tecvagas/candidato/cadastro/?$ /tecvagas/sistema/candidato/visao/cadastro.php [L]

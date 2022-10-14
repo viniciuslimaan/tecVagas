@@ -1,0 +1,20 @@
+.dropdown-item {
+    font-size: 20px;
+}
+
+.navbar {
+    background: #565C9E;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    padding: 3px 0;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.navbar-brand:hover {
+    color: rgb(233, 233, 233);
+}
